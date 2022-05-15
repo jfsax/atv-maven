@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.com.maven_comercio.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/test-classes:/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/classes:/Users/jessica.xavier/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jessica.xavier/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-web/5.3.19/spring-web-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/surefire/surefirebooter9996173242533326221.jar /Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/surefire 2022-05-15T15-03-23_428-jvmRun1 surefire8346417367183773130tmp surefire_02837686360869041860tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/test-classes:/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/classes:/Users/jessica.xavier/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/jessica.xavier/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-web/5.3.19/spring-web-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar:/Users/jessica.xavier/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jessica.xavier"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-03-22"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio/target/surefire/surefirebooter9996173242533326221.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18+0"/>
+    <property name="user.name" value="jessica.xavier"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jessica.xavier/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/z_/d7brlmbs6h38d0yjvx5fdz_19blgth/T/"/>
+    <property name="java.version" value="18"/>
+    <property name="user.dir" value="/Users/jessica.xavier/Desktop/modulo2/maven/maven_comercio"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/jessica.xavier/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="br.com.maven_comercio.AppTest" time="0.003"/>
+</testsuite>
