@@ -3,8 +3,6 @@ package br.com.maven_comercio.ui;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import javax.swing.JOptionPane;
-
 import br.com.maven_comercio.model.Product;
 
 public class ProductMenu {
@@ -22,25 +20,32 @@ public class ProductMenu {
 
             switch (choice) {
                 case 1:
-                    productId++;
-
                     System.out.println("|   |----------------------------------------------------|   |");
-                    System.out.println("|   | Digite o nome do produto:");
-                    String name = scan.nextLine();
+                    System.out.println("Quantos produtos deseja cadastrar?");
+                    int numProducts = Integer.parseInt(scan.nextLine());
 
-                    System.out.println("|   | Digite o preço do produto:");
-                    String price = scan.nextLine();
+                    for (int i = 0; i < numProducts; i++) {
+                        productId++;
 
-                    System.out.println("|   | Digite a quantidade do produto:");
-                    String quantity = scan.nextLine();
+                        System.out.println("|   |----------------------------------------------------|   |");
+                        System.out.println("|   | Digite o nome do produto:");
+                        String name = scan.nextLine();
 
-                    Product product = new Product();
-                    product.setId(productId);
-                    product.setName(name);
-                    product.setUnitPrice(Double.parseDouble(price));
-                    product.setQuantity(Integer.parseInt(quantity));
+                        System.out.println("|   | Digite o preço do produto:");
+                        String price = scan.nextLine();
 
-                    products.add(product);
+                        System.out.println("|   | Digite a quantidade do produto:");
+                        String quantity = scan.nextLine();
+
+                        Product product = new Product();
+                        product.setId(productId);
+                        product.setName(name);
+                        product.setUnitPrice(Double.parseDouble(price));
+                        product.setQuantity(Integer.parseInt(quantity));
+
+                        products.add(product);
+                    }
+
                     break;
                 case 2:
                     double total = 0;
