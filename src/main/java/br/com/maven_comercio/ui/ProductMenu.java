@@ -10,7 +10,6 @@ public class ProductMenu {
         ArrayList<Product> products = new ArrayList<Product>();
         Scanner scan = new Scanner(System.in);
         int productId = 0;
-        boolean exit = true;
 
         do {
             System.out.println("\n|   |----------------------------------------------------|   |");
@@ -69,6 +68,8 @@ public class ProductMenu {
                 case 0:
                     break;
             }
+            scan.close();
         } while (true);
+
     }
 }
